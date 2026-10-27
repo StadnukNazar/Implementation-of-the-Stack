@@ -52,7 +52,7 @@ class Stack {
 const s = new Stack();
 console.log("Новий стек:", String(s), "| size() =", s.size());
 
-console.log("\n--- push(): додаємо 11, 22, 33 (як на Рис. 2) ---");
+console.log("\n--- push(): додаємо 11, 22, 33 ---");
 [11, 22, 33].forEach(v => { s.push(v); console.log(`push(${v})  ->`, String(s)); });
 
 console.log("\n--- peek() і toString() (елементи не видаляються) ---");
